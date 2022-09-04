@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "SpriteMeshInstance",
 "language": "GDScript",
 "path": "res://addons/sprite_mesh/sprite_mesh_instance.gd"
+}, {
+"base": "Spatial",
+"class": "Weapon",
+"language": "GDScript",
+"path": "res://Weapons/weapon.gd"
 } ]
 _global_script_class_icons={
 "SpriteMesh": "res://addons/sprite_mesh/icons/sprite_mesh.png",
-"SpriteMeshInstance": "res://addons/sprite_mesh/icons/sprite_mesh_instance.png"
+"SpriteMeshInstance": "res://addons/sprite_mesh/icons/sprite_mesh_instance.png",
+"Weapon": ""
 }
 
 [application]
